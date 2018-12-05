@@ -5,7 +5,8 @@
 // WiFi Definitions //
 //////////////////////
 const char WiFiAPPSK[] = "letmein";   // Access Point Password
-const char WiFiSSID[] = "ESP_91E6BC";  // SSID of ESP8266 acting as server
+//const char WiFiSSID[] = "ESP_91E6BC";  // SSID of ESP8266 acting as server
+const char WiFiSSID[] = "ESP_91E53C";  // SSID of ESP8266 acting as server
 
 
 // Hardware definition
@@ -17,11 +18,11 @@ const char WiFiSSID[] = "ESP_91E6BC";  // SSID of ESP8266 acting as server
 #define PIN_I2C_SCL   14
 #define PIN_BUTTON    15
 
-#ifdef TEMP_NODE
+//#ifdef TEMP_NODE
 #define PIN_LED       13
-#else
-#define PIN_LED       16
-#endif
+//#else
+//#define PIN_LED       16
+//#endif
 
 
 
